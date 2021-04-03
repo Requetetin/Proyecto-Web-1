@@ -1,14 +1,17 @@
 module.exports = {
-    mode: 'production',
-    module: {
-        rules: [
-            {
-                test: /\.(js)$/,
-                use: ['babel-loader']
-            }
-        ]
-    },
-    devServer: {
-        contentBase: './dist'
-    }
+  mode: 'production',
+  module: {
+    rules: [
+      {
+        test: /\.(jsx?)$/,
+        use: ['babel-loader', 'eslint-loader'],
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
+  },
+  devServer: {
+    contentBase: './dist',
+  },
 }
