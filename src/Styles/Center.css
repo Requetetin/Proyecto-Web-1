@@ -1,0 +1,39 @@
+.center{
+  text-align: center;
+}
+
+.iandt{
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}
+
+.video{
+  padding: 15px;
+  height: 550px;
+}
+
+.purchases{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+}
+
+.score{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.friends{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+}

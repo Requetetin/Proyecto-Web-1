@@ -1,0 +1,38 @@
+.padded{
+  padding: 5px;
+}
+
+.heightOne{
+  height: 150px;
+}
+
+.heightTwo{
+  height: 15px;
+}
+
+.heightThree{
+  height: 200px;
+}
+
+.downOne{
+  transform: translateY(-500px);
+}
+
+.downTwo{
+  transform: translateY(-475px);
+  background-color: black;
+}
+
+.downThree{
+  transform: translateY(20%);
+}
+
+.downFour{
+  transform: translateY(470px);
+}
+
+.downFive{
+  height: 800px;
+  transform: translateY(470px);
+  background-color: black;
+}
